@@ -1,0 +1,44 @@
+DisplayName = 38cm Main Gun
+Type = MachineGun1
+ModelBullet = b1
+Power = 380
+Acceleration = 380
+AccelerationInWater = 120.0
+Explosion = 30
+ExplosionBlock = 19
+ExplosionInWater = 15
+Flaming = true
+Sight = None
+Delay = 190
+ReloadTime = 800
+SoundPitch = 0.05
+SoundVolume = 200
+Sound = bismarckmain
+Gravity = -0.01
+DamageFactor = helicopter, 1.0
+DamageFactor = plane,      1.0
+DamageFactor = vehicle,    1.0
+DamageFactor = tank,       1.0
+
+
+
+; AddMuzzleFlash = distance, size, life time,  A,  R,  G,  B
+AddMuzzleFlash      =           15.5,   10.10,        27,  250,254,164,62
+AddMuzzleFlash      =           15.9,   9.05,        20,  250,254,210,64
+AddMuzzleFlash      =           16.1,   4.00,        18,  250,254,190,68
+AddMuzzleFlash      =           15.4,   2.0,        8,  250,254,220,65
+; AddMuzzleFlashSmoke = Distance from source, number of displays, size, range, display time,  A,  R,  G,  B
+AddMuzzleFlashSmoke   =             15.5,     30,   8.0,  7.0,       105,  250,150,150,150
+AddMuzzleFlashSmoke   =             15.6,     30,   10.0,  4.0,       115,  250,170,170,170
+AddMuzzleFlashSmoke   =             16.2,     40,   11.0,  2.0,       125,  250,160,160,160
+
+
+DisplayMortarDistance = true
+
+; RecoilBufCount = Back to normal pos time, recoil time
+RecoilBufCount = 90, 6
+
+MaxAmmo = 12
+SuppliedNum = 4
+Item =  8, iron_ingot
+Item =  12, gunpowder

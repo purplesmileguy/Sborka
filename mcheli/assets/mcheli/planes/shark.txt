@@ -1,0 +1,36 @@
+﻿DisplayName = SHARK "UKRAINE"
+MaxHp = 70
+Speed = 1.0
+Sound = shahed
+CameraPosition = 0.0, 0.40, 0.34
+ThrottleUpDown = 0.8
+MaxFuel         = 20000
+FuelConsumption = 0.1
+Stealth = 0.0
+RotorSpeed = 1000.0
+HUD = plane
+AutoPilotRot = 1000
+ParticlesScale = 0.2
+ThirdPersonDist = 400
+AddSeat =  0.0, 2.0, 0.0
+HideEntity = true
+EnableVtol = true
+VtolYaw = 0.1
+VtolPitch = 0.1
+AddPartCamera = -0.2184, 0.0438, 2.4633
+CameraPosition = -0.2184, 0.0438, 2.4633
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+AddRecipe = " I ",  " I ",  " F ",  I,iron_ingot, F,furnace
+
+
+AddPartRotor =   -0.00, 0.4732, -3.8902,   0, 2, 1
+
+AddBlade = 1, 32, -0.00, 0.4732, -3.8902,  0.0, 0.0, 1.0,
+
+
+BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
+RideRack = ShahedTruck, 1
+
